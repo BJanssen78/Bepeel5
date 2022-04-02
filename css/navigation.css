@@ -1,0 +1,67 @@
+@media screen and (max-width:400px){
+    
+}
+@media screen and (max-width:600px){
+
+}
+
+@media  screen and (min-width:601px) {
+    .navibar{
+        /* background-color: lime; */
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    .navibar a{
+        text-decoration: none;
+    }
+    .navi-button{
+        background-color: lime;
+        color: black;
+        padding: 15px;
+        margin: 3px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 2px 2px black;
+    }
+    .navi-button:hover{
+        box-shadow: -2px -2px black;
+        background-color: yellow;
+    }
+    .navi-span{
+        font-size: 0.8em;
+    }
+    #dropdown{
+        position: relative;
+        display: block;
+    }
+    #dropdown:hover .navi-button{
+        background-color: yellow;
+    }
+    .dropdown-item{
+        position:absolute;
+        display: none;
+        z-index: 1;
+    }
+    .navi-button2{
+        background-color:yellow;
+        color: black;
+        padding: 15px;
+        margin: 0;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 2px 2px black;
+    }
+    .navi-button2:hover{
+            box-shadow: -2px -2px black;
+            background-color: lime;
+    }
+    .navi-button2:active{
+        background-color: yellow;
+    }
+    .dropdown:hover .dropdown-item{
+        display:block;
+    }
+}

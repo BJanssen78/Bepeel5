@@ -1,0 +1,44 @@
+body > *{
+    margin: 0;
+}
+@media screen and (max-width:400px){
+    
+}
+@media screen and (max-width:600px){
+    
+}
+
+@media  screen and (min-width:601px) {
+    #body-container{
+        display: grid;
+        /* grid-gap: 3px; */
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 180px 40px auto 150px;
+        grid-template-areas:
+        "h h h h h h h h h h h h"
+        "m m m m m m m m m m m m"
+        "l l l c c c c c c c r r"
+        "f f f f f f f f f f f f" ;
+}
+body{
+    margin: 0;
+}
+.header{
+    grid-area: h;
+}
+.navigatie{
+    grid-area: m;
+}
+.side-left{
+    grid-area: l;
+}
+.side-right{
+    grid-area: r;
+}
+.content{
+    grid-area: c;
+}
+.footer{
+    grid-area: f;
+}
+}

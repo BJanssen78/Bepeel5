@@ -1,0 +1,122 @@
+body{
+    overflow: hidden;
+}
+section{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav > div {
+    /* bottom: 0; */
+    position: sticky;
+    position: -webkit-sticky;
+    /* position: fixed; */
+    /* overflow: hidden; */
+    text-align: left;
+    background-color:lightgray;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+.bottom-nav{
+    display: inline-block;
+    position: relative;
+}
+.bottom-nav button{
+    color: black;
+    background-color: lightgray;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 0.35em;
+    box-shadow: 2px 2px 5px black;
+}
+.bottom-nav-list{
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    width: 100px;
+    min-width: 100px;
+    padding: 1px;
+    background-color: lightgray;
+    z-index: 1;
+}
+.bottom-nav-list a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 0.5em;
+}
+.bottom-nav-list a:hover{
+    background-color: darkgray;
+}
+.bottom-nav:hover .bottom-nav-list{
+    display: block;
+}
+section > div{
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr);
+    padding: 10px;
+}
+section > div > div > a > img{
+    max-width: 150px;
+}
+aside{
+    margin: 10px;
+    padding: 15px;
+    width: 15%;
+    bottom: 15%;
+    float: right;
+}
+.xp-logo{
+    width: 250px;
+    bottom: 50px;
+    right: 10px;
+    position: fixed;
+}
+nav > div > span{
+    float: right;
+    padding: 0.2em;
+    font-size: 1.2em;
+}
+.klok{
+    font-size: 0.9em;
+    width: 100px;
+    text-align: center;
+    float:right;
+    height: 40px;
+}
+.taakbalk-img{
+    width: 20px;
+}
+.taakbalk-klok{
+    box-shadow: -2px -2px 5px black;
+    border: 1px solid black;
+    width: 180px;
+    float: right;
+}
+.center-text{
+    background-color: rgba(211,211,211,0.5);
+    /* opacity: 40%; */
+    position: absolute;
+    transform: translate(50%);
+    -ms-transform: translate(50%);
+    top: 30%;
+    width: 50%;
+    border-radius: 25px;
+}
+div.center-text p{
+    font-size: bold;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    /* opacity: 1000%; */
+}

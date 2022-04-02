@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Frame test</title>
+
+        <link href="CSS/frame-css.css" rel="stylesheet"/>
+    </head>
+<!-- this page is intended for view purpose only, and not for actual use online. -->
+    <body>
+        <header>
+            <p class="frame-header">
+                Deze pagina gebruik ik om te zien hoe responsive mijn website is.<br>
+                Deze pagina maakt gebruik van iframe, welk doorgaans niet meer gebruikt word.<br>
+                De alternatieven zijn mij nog niet bekend, dit zal later nog volgen.<br>
+                <button><a href="../index.html">Back</a></button>
+            </p>
+        </header>
+        <div id="content" class="content-div">
+            <div class="kleinste">
+                <p>Dit frame geeft een beeld van 400px weer.</p>
+                <iframe style="width: 400px;min-height: 400px;" src="index.html"></iframe>
+            </div>
+            <div class="zes-honderd">
+                <p>Dit frame geeft een beeld van 600px weer.</p>
+                <iframe style="width: 600px;min-height: 400px;" src="index.html"></iframe>
+            </div>
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width:400px){
+    
+}
+@media screen and (max-width:600px){
+    #body-container{
+        display: grid;
+        /* grid-gap: 3px; */
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 50% 40px auto 50%;
+        grid-template-areas:
+        "h h h h h h h h h h h h"
+        "m m m m m m m m m m m m"
+        "c c c c c c c c c c c c"
+        "f f f f f f f f f f f f" ;
+}
+}
+
+@media  screen and (min-width:601px) {
+    #body-container{
+        display: grid;
+        /* grid-gap: 3px; */
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 200px auto minmax(150px,auto);
+        grid-template-areas:
+        "h h h h h h h h h h h h"
+        "m c c c c c c c c c c c"
+        "f f f f f f f f f f f f" ;
+}
+#header{
+    grid-area: h;
+    top: 0;
+}
+#navigation{
+    grid-area: m;
+}
+#side-left{
+    grid-area: l;
+}
+#side-right{
+    grid-area: r;
+}
+#content{
+    grid-area: c;
+    padding: 15px 0;
+}
+#footer{
+    grid-area: f;
+}
+a{
+    color: yellow;
+    font-weight: bold;
+}
+a:hover{
+    background-color: yellow;
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+}

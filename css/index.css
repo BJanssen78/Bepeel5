@@ -1,0 +1,20 @@
+@media screen and (max-width:400px){
+    
+}
+@media screen and (max-width:600px){
+
+}
+
+@media  screen and (min-width:601px) {
+    .title-span{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .page-content p{
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        /* justify-content:space-between; */
+        justify-items:stretch;
+    }
+}

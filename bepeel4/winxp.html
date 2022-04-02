@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- start meta block -->
+        <meta content="text/html;" charset="utf-8" http-equiv="Content-Type">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- einde meta block -->
+
+        <title>BJL Development</title>
+    
+        <!-- start link block -->
+        <link rel="stylesheet" href="CSS/sercetlink.css"/>
+        <link rel="stylesheet" href="CSS/header.css"/>
+        <link rel="stylesheet" href="CSS/maincss.css"/>
+        <link rel="stylesheet" href="CSS/footer.css"/>
+        <!--Pagina links-->
+        <link rel="stylesheet" href="CSS/win-xp-css.css"/>
+        
+        <!-- Script komt van w3schools af,
+             alleen kleine aanpassingen om te matchen
+              met de lay-out van de pagina -->
+        <script>
+            function startTime() {
+              const today = new Date();
+              let h = today.getHours();
+              let m = today.getMinutes();
+              let s = today.getSeconds();
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('txt').innerHTML =  h + ":" + m ;
+              setTimeout(startTime, 1000);
+            }
+            function checkTime(i) {
+              if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+              return i;
+            }
+            // Datum script werkt nog niet
+            var today = new Date();
+            var dd = today.getDate();
+
+            var mm = today.getMonth()+1; 
+            var yyyy = today.getFullYear();
+            if(dd<10) 
+            {
+                dd='0'+dd;
+            } 
+
+            if(mm<10) 
+            {
+                mm='0'+mm;
+            } 
+            today = dd+'-'+mm+'-'+yyyy;
+            console.log(today);
+        </script>
+
+    </head>
+    <body onload="startTime()" background="IMG/bg-win-xp.jpg" style="background-repeat:no-repeat;background-size:cover">
+        <!-- Start Secret link -->
+        <a id="sercetlink" href="../index.html" class="secretlink">Secret Link</a>
+        <!-- Einde Secret link -->
+
+        
+        <section id="win-xp">
+            <div class="center-text">
+                <p>
+                    Een Windows XP thema, sommige dingen werken, en sommige niet.<br>
+                    Het gaat om het idee, have fun.
+                </p>
+            </div>
+            <div id="grid-view">
+                <div id="icon-home-pagina">
+                    <a href="../index.html" title="Home">
+                        <img src="IMG/icon-xp-deze-computer.png" alt="Icon deze computer"/>
+                    </a>
+                </div>
+                <div id="icon-google-link">
+                    <a href="www.google.com">
+                        <img src="IMG/google-chrome.png" alt="Chrome logo" title="Google"/>
+                    </a>
+                </div>
+                <div id="icon-prullenbak">
+                    <a href="#" title="Prullenbak" alt="Deze link is niet gedefinieerd">
+                        <img src="IMG/windows-xp-recycle-bin-icon-download-0.jpg" alt="xp prullenbak"/>
+                    </a>
+                </div>
+            </div>
+            
+                <img class="xp-logo" src="IMG/ms-win-xp-logo.png"/>
+        </section>
+        <nav>
+            <div class="bottom-nav">
+                <button>START</button>
+                <div id="bottom-nav-list" class="bottom-nav-list">
+                    <a href="../index.html">Home</a>
+                    <a href="aboutme.html">About me</a>
+                    <a href="#">Contact</a>
+                    <a href="https://www.wincacademy.nl/#" target="_blank">Opleiding</a>
+                </div>
+                <div id="taakbalk-klok" class="taakbalk-klok">
+                    <span><img class="taakbalk-img" src="IMG/icon-xp-geluid.png"/></span>
+                    <span><img class="taakbalk-img" src="IMG/windows_easy_transfer_logo.png"/></span>
+                    <span>EN</span>
+                    <div class="klok">
+                        <!-- <span class="klok"> -->
+                            <div id="txt"></div>                            
+                            dd-mm-yyyy <!-- Datum is me helaas niet gelukt-->
+                        <!-- </span> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </body>
+</html>

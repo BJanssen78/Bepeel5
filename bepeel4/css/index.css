@@ -1,0 +1,33 @@
+@media screen and (max-width:400px){
+    
+}
+@media screen and (max-width:600px){
+    
+}
+
+@media  screen and (min-width:601px) {
+    
+    
+    .content{
+        grid-area: c;
+    }
+    .advent-left{
+        max-width: 200px;
+        margin: 0;
+        padding: 10px;
+    }
+    .advent-right{
+        margin: 0;
+        padding: 10px;
+        max-width: 200px;
+    }
+    .content-img{
+        max-width: 100px;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    .wrap-text{
+        word-wrap:normal;
+        display: flex;
+    }
+}

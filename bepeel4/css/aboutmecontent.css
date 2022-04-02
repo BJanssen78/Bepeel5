@@ -1,0 +1,68 @@
+section > div{
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    width: 60%;
+    /* text-align: center; */
+}
+.me{
+    background-color: violet;
+    padding:10px;
+    /* text-align: left; */
+    border: 2px solid black;
+    line-height: 1.1em;
+}
+img.ik{
+    float: left;
+    padding: 10px;
+    max-width: 50%;
+    max-height: 100px;
+}
+@media screen and (max-width:400px) {
+    img.ik{
+        min-width: 90%;
+        max-height: 100%;
+    }   
+}
+.me2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(167, 162, 247);
+    padding: 10px;
+    /* text-align: left; */
+}
+.me2-text{
+    width: 60%;
+    /* text-align: left; */
+    margin-left: 0;
+}
+a.intrestlink{
+    color: black;
+}
+a.intrestlink:hover{
+    background-color: violet;
+    color:blue;
+    font-weight: bold;
+}
+.intrestspan{
+    font-size: 0.6em;
+    vertical-align: middle;
+    color: red;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.me3{
+    background-color: lightgreen;
+}
+.me4{
+    background-color: lightgoldenrodyellow;
+}
+.me5{
+    background-color: lightseagreen;
+}
+.me6{
+    background-color: lightskyblue;
+}

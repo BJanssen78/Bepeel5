@@ -1,0 +1,73 @@
+@media screen and (max-width:400px){
+    
+}
+@media screen and (max-width:600px){
+    
+}
+
+@media  screen and (min-width:601px) {
+    .navigatie{
+        background-color: yellow;
+        color: black;
+        text-align: center;
+        display: inline;
+        /* flex-direction: row; */
+        /* justify-content: center; */
+    }
+    .navi-list{
+        display: inline;
+        list-style-type: none;
+    }
+    .navi-list-item{
+        display: inline;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    .navi-link{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .navi-link:hover{
+        background-color: black;
+        color: yellow;
+    }
+    .button-div{
+        display: inline;
+        padding: 10px;
+    }
+
+    #dropdown{
+        display: inline-block;
+        position: relative;
+    }
+    .sub-nav-droplist{
+        position: absolute;
+        display: none;
+        text-align: left;
+        width: 220px;
+        padding: 10px 0;
+        background-color: yellow;
+        color: black;
+        z-index: 1;
+    }
+    .sub-nav-droplist a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        line-height: 1em;
+    }
+    .sub-nav-droplist:hover a:hover .dropdown-button:hover{
+        background-color: black;
+        color: yellow;
+        
+    }
+    #dropdown:hover .sub-nav-droplist{
+        display: block;
+        transition: 3000ms ease-in-out;
+    }
+    .navi-span-highlight{
+        color: red;
+    }
+}

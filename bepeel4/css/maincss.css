@@ -1,0 +1,17 @@
+*{
+    scroll-behavior: smooth;
+    user-select: none;
+    /* margin: auto; */
+    
+    
+}
+body{
+    background-color: lightgray;
+    margin: auto;
+}
+section{
+    margin: auto;
+    font-size: 1.2em;
+    /* max-width: 60%; */
+    /* padding-top: 10px; */
+}

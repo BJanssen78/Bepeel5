@@ -1,0 +1,16 @@
+@media screen and (max-width:400px){
+    
+}
+@media screen and (max-width:600px){
+    
+}
+
+@media  screen and (min-width:601px) {
+    .header{
+        background-color: black;
+        color: yellow;
+        text-align: center;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+}

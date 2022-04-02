@@ -1,0 +1,25 @@
+.secretlink {
+    text-decoration: none;
+    padding: 1em;
+    margin: 0%;
+    position: absolute;
+    transform: translateY(-140%);
+    background-color: yellow;
+    color: red;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    left: 1rem;
+    top: 1rem;
+    transition: transform 325ms ease-in;
+}
+
+.secretlink:focus {
+    transform: translateY(0);
+}
+
+.secretlink:hover {
+    background-color: red;
+    color: yellow;
+}

@@ -1,0 +1,62 @@
+section{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    width: 60%;
+}
+form{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 25px;
+    background-color: antiquewhite;
+    /* text-align: center; */
+}
+table{
+    /* display: inline-block; */
+    font-size: 1.2em;
+    font-weight: bold;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+}
+/* table > th, tr, td{
+    border: 1px solid black;
+} */
+td{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+td.radio{
+    max-width: 37px;
+}
+input.radio{
+    min-width: 25px;
+   /* flex-direction: row; */
+    padding: 0;
+}
+input.txt{
+    width: 200px;
+}
+/* td.txt{
+    width: 150px;
+    text-align: right;
+} */
+.form-button{
+    width: 150px;
+    height: 2em;
+    font-weight: bold;
+}
+.form-button:hover{
+    color: yellow;
+    background-color: black;
+}
+td.checkbox{
+    text-align: left;
+    padding: 10px;
+}
+.netlify-captcha{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
