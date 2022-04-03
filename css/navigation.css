@@ -10,6 +10,9 @@
         text-align: center;
         /* justify-items: stretch; */
     }
+    .nav-list-items > a:visited{
+        color: black;
+    }
     .nav-list{
         list-style-type: none;
         margin: 0;

@@ -2,7 +2,25 @@
     
 }
 @media screen and (max-width:600px){
-
+    .cssfooter{
+        background-color: black;
+        color: lime;
+    }
+    .footer-title{
+        font-size: 1.4em;
+    }
+    .resource{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding: 10px;
+    }
+    .resource  *{
+        list-style-type: none;
+        text-align: left;
+        padding: 5px;
+    }
 }
 
 @media  screen and (min-width:601px) {
