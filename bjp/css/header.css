@@ -1,0 +1,71 @@
+﻿@media only screen and (max-width: 400px)
+{
+header.animate
+{
+	display:none;
+}
+header > a
+{
+	text-decoration:none;
+}
+a > img
+{
+	border:0px;
+	width:200px;
+}
+header > h1
+{
+	display:none;
+}
+}
+@media only screen and (min-width: 401px)
+{
+header
+{
+	display:inline;
+}
+header h1
+{
+	font-family:"Segoe Script";
+}
+header > a
+{
+	text-decoration:none;
+}
+a > img
+{
+	border:0px;
+	width:200px;
+	text-align:left;
+	vertical-align:middle;
+}
+header.mobiel
+{
+	display:none;
+}
+.animate
+{
+	background-color: black;
+    -webkit-animation-name: animate; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate
+{
+    0%   {color:yellow;}
+    25%  {color:lime;}
+    50%  {color:yellow;}
+    75%  {color:lime;}
+    100% {color:yellow;}
+}
+@-webkit-keyframes animate
+{
+    0%   {color:yellow;}
+    25%  {color:lime;}
+    50%  {color:yellow;}
+    75%  {color:lime;}
+    100% {color:yellow;}
+}
+}

@@ -16,8 +16,13 @@
         <!-- end site css link section-->
 
         <!-- start page css link section-->
-        <link rel="stylesheet" href="css/cool.css"/>
+        <link rel="stylesheet" href="css/youtube.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
         <!-- end page css link section-->
+
+        <script src="https://kit.fontawesome.com/6456d808c8.js" crossorigin="anonymous"></script>
 
         <body>
             <div id="body-container">
@@ -26,23 +31,51 @@
                     <h1>Bepeel Development</h1>
                     <p>Made possible by <span class="span-title">Winc Academy & UWV</span></p>
                 </div>
-
                 <div id="mobil-nav" class="mobil-navi">
                     <ul class="nav-list">
                         <li class="nav-list-items"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-list-items"><a class="nav-link" href="cool.html">Cool</a></li>
-                        <li class="nav-list-items"><a class="nav-link" href="boxmodel.html">Box Model</a></li>
+                        <li class="nav-list-items"><a class="nav-link" href="hackathon.html">Hackathon</a></li>
+                        <li class="nav-list-items"><a class="nav-link" href="bepeel4/aboutme.html">About Me</a></li>
                         <li class="nav-list-items"><a class="nav-link" href="forms.html">Forms</a></li>
-                        <li class="nav-list-items"><a class="nav-link" href="youtube.html">Youtube</a></li>
+                        <li class="nav-list-items"><a class="nav-link" href="bepeel4/index.html">Previous</a></li>
                     </ul>
                 </div>
 
-                <div id="content">
-                    <p>
-                        This page contains no specific content, <br>
-                        other than being a sub navigation page.<br>
-                        The reason is the keep the lay-out en design in the way i want it to be.
-                    </p>
+                <div id="navigation" class="navibar">
+                    <div class="mobile">Menu :</div>
+                    <a href="index.html" class="#"><div class="navi-button">Home</div></a>
+
+                    <div class="dropdown">
+                        <div id="dropdown" class="navi-button">Hackathon</div>
+                        <div class="dropdown-item"><!-- Dropdown items -->
+                            <a href="cool.html"><div class="navi-button2">Grid Hover</div></a>
+                            <a href="boxmodel.html"><div class="navi-button2">Box Model</div></a>
+                            <a href="forms.html"><div class="navi-button2">Forms</div></a>
+                        </div>
+                    </div>
+                    
+                    <a href="bepeel4/aboutme.html" class="#"><div class="navi-button">About Me</div></a>
+                    <a href="bepeel4/winxp.html" class="#" target="_blank"><div class="navi-button">Windows XP</div></a>
+                    <a href="bepeel4/games.html" class="#"><div class="navi-button">Games</div></a>
+                    <a href="bepeel4/index.html" class="#"><div class="navi-button"><span class="navi-span">Previous Assignments</span></div></a>   
+                </div>
+
+                <div id="content" class="page-content">
+                    <div>
+                        Here i have embedded a youtube footage from Kevin Powell.<br>
+                        Here he explanes how Grid and Flexbox works.<br><br>
+                        <iframe  src="https://www.youtube.com/embed/3elGSZSWTbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div id="other-font">
+                        <i class="fa-solid fa-dragon"> Dragon</i><br>
+                        <i class="fa-solid fa-cat"> Cat</i><br>
+                        <i class="fa-solid fa-otter"> Otter</i><br>
+                        <i class="fa-solid fa-skull-crossbones"> Pirates</i><br>
+                        <p class="google-fonts">
+                            Above you see some cool icons, directly linked from awesome fonts.<br>
+                            The text itself has been linked thru css from Google fonts.
+                        </p>
+                    </div>
                 </div>
 
                 <div id="footer" class="cssfooter">

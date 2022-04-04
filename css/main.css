@@ -3,6 +3,24 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2em;
 }
+.bjp{
+    width: 250px;
+    height: 30px;
+    font-size: 1em;
+    /* padding: 10px; */
+    font-weight: bold;
+    background-color: yellow;
+
+}
+.bjp:hover{
+    background-color: lime;
+}
+.bjp  a{
+    color: black;
+    font-size: 1.2em;
+    /* padding: 10px; */
+}
+
 
 @media screen and (max-width:400px){
     
@@ -53,6 +71,9 @@ a:visited{
 }
 #navigation{
     grid-area: m;
+}
+#mobil-nav{
+    display: none;
 }
 #side-left{
     grid-area: l;

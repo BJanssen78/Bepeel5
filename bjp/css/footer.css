@@ -1,0 +1,33 @@
+﻿@media only screen and (max-width: 400px)
+{
+footer
+{
+	font-size:10px;
+	color:yellow;
+}
+.social
+{
+	font-size:3.0em;
+}
+a
+{
+	color:yellow;
+	text-decoration:none;
+}
+}
+@media only screen and (min-width: 401px)
+{
+footer
+{
+	font-size:1.0em;
+	color:yellow;
+	position:sticky;
+	position:-webkit-sticky;
+	bottom:0;
+	background-color:black;
+}
+.social
+{
+	display:none;
+}
+}

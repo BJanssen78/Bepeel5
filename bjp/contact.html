@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- Meta -->
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="description" content="Hobby Fotograaf" />
+<meta name="copyright" content="Ben & Jenni Photografics" />
+<meta name="keywords" content="picture,foto,fotograaf,paintball,uitje,event,nijmegen,beuningen,
+	cuijk,wijchen,toernooi,wedstrijd,media,recreatie,vrijgezellenfeest,bruiloft,tournament,competition,
+	competitie,evenament,natuur,photoshoot,shoot,photo,dieren,animal,fotosessie" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Einde Meta -->
+
+<title>Ben &amp; Jenni Photografics</title>
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="manifest" href="img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#000000">
+<!-- Einde Favicon -->
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/nav.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/body.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- Einde CSS -->
+
+</head>
+
+<body>
+
+<div id="innerbody" class="base"> <!-- Inner body -->
+
+<!-- header -->
+<header id="mobiel" class="mobiel">
+<a href="http://www.benjenniphotografics.nl/" target="_self"><img id="Logo" alt="Logo" src="img/BJPlogo.png"/></a>
+<h1>Ben &amp; Jenni Photografics</h1>
+<h2>De goedkoopste fotograaf op locatie</h2>
+</header>
+
+<header id="desktop" class="animate">
+<table>
+<tr>
+<td><a href="http://www.benjenniphotografics.nl/" target="_self"><img id="MainLogo" alt="Logo" src="img/BJPlogo.png"/></a></td>
+<td><h1>Ben &amp; Jenni Photografics</h1><h2>De goedkoopste fotograaf op locatie</h2></td>
+</tr>
+</table>
+</header>
+
+<!-- Einde header -->
+
+<!-- Navigatie -->
+<nav>
+<a href="http://www.benjenniphotografics.nl/" target="_self"><span><i class="fa fa-home"><span class="navtxt"> Home</span></i></span></a>
+<a href="about.html"><span><i class="fa fa-info-circle"><span class="navtxt"> About us</span></i></span></a>
+<a href="home"><span><i class="fa fa-image"><span class="navtxt"> Albums</span></i></span></a>
+<a href="prijzen.html"><span><i class="fa fa-eur"><span class="navtxt"> Prijslijst</span></i></span></a>
+<a href="contact.html"><span><i class="fa fa-at"><span class="navtxt"> Contact</span></i></span></a>
+</nav>
+<!-- Einde Navigatie -->
+
+<!-- content -->
+<div id="content">
+<p>&nbsp;</p>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" enctype="application/x-www-form-urlencoded" id="contact" method="post">
+<input type="text" name="voornaam" value="<?php echo $voornaam;?>" autofocus="autofocus" placeholder="Voornaam"/>
+<input type="text" name="achternaam" value="<?php echo $achternaam;?>" placeholder="Achternaam"/><br>
+<input type="email" name="email" value="<?php echo $email;?>" placeholder="Emailadres"/>
+<input type="tel" name="telnr" value="<?php echo $telnr;?>" placeholder="Telefoon nummer"/><br><br>
+<textarea name="bericht" wrap="soft" placeholder="Uw bericht"><?php echo $bericht;?></textarea><br>
+<input type="submit" value="Submit"/>
+<input type="reset" value="Reset"/><br>
+
+</form>
+</div>
+<!-- Einde content -->
+
+<!-- footer -->
+<footer>
+<div class="social"><a href="https://www.facebook.com/BenJenniPhotografics/"><i class="fa fa-facebook-square"></i></a>&nbsp;<a href="https://www.instagram.com/benjenniphotografics/"><i class="fa fa-instagram"></i></a></div>
+<div class="copyright">De op alle hier getoonde werken staat onze <i class="fa fa-copyright"></i> copyright 2018 Ben &amp; Jenni Photografics all rights reserved</div>
+</footer>
+<!-- Einde footer -->
+
+</div> <!-- Einde Inner body -->
+</body>
+
+</html>

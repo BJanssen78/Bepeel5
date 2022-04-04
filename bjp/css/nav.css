@@ -1,0 +1,42 @@
+﻿nav
+{
+	position:sticky;
+	position:-webkit-sticky;
+	top:0px;
+	background-color:yellow;
+	padding:7px;
+}
+nav a
+{
+	color:black;
+	background-color:yellow;
+	text-decoration:none;
+	font-size:1.6em;
+	padding:5px;
+	margin:0px;
+}
+nav a:hover
+{
+	background-color:lime;
+}
+@media only screen and (max-width: 440px)
+{
+span.navtxt
+{
+	display:none;
+}
+}
+@media only screen and (min-width: 441px)
+{
+span
+{
+	font-size:0.7em;
+}
+}
+@media only screen and (min-width: 710px)
+{
+span
+{
+	font-size:1.0em;
+}
+}
